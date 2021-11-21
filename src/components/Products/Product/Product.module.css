@@ -1,0 +1,16 @@
+.card__img__top {
+    width: 200px;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    margin: 10px;
+    border: 1px solid black;
+}
