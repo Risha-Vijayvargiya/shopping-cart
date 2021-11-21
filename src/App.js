@@ -9,7 +9,6 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Cart from "./components/Cart/Cart";
-// import SingleItem from "./components/SingleItem/SingleItem";
 
 function App( current ) {
   return (
@@ -29,7 +28,6 @@ function App( current ) {
             )
             }}>
           </Route>
-          {/* <Route exact path="/product/:id" component={SingleItem}/> */}
         </Switch>
       </div>
     </Router>
